@@ -7,7 +7,7 @@ module.exports = function main(num) {
     for(var i=0;i<3*len;i++){
         var row = 
         res = res + sig[arr[parseInt(str_num[i%len])][Number(i>=len)+Number(i>=2*len)+Number(i>=3*len)]];
-        if(i%len==(len-1)&&i!=(len-1)){    res = res + '\n';}
+        if(i%len==(len-1)){    res = res + '\n';}
         else{    res = res +' ';}
         
     }
